@@ -1,0 +1,127 @@
+.right_sidebar_block{ margin-bottom: 15px; }
+.tc_row { *zoom: 1; }
+.tc_row:before,
+.tc_row:after { display: table; line-height: 0; content: ""; clear: both; }
+
+.tc_row .tc_span{ float: left; min-height: 1px;	margin-left: 0; }
+.three_columns_top{
+    padding-top: 190px;	
+    padding-bottom: 50px;
+}
+.tc_page .repeat_bg_left,
+.tc_page .repeat_bg_right{ background: url("../images/tc_page_bg_lr.png") no-repeat;}
+.tc_page .repeat_bg_left { background-position: left top; }
+.tc_page .repeat_bg_right{ background-position: right top; }
+.tc_background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+.bg_image{
+    width: 100%;
+    position: relative;
+    background: #f0f2ef;
+    max-height: 355px;
+}
+.bg_image>img{
+    position: relative;
+    z-index: 1;
+}
+.bg_mask{
+    width:100%;
+    position: absolute;
+    top:50%;
+    left: 0;
+    background: url("../images/mask.png") no-repeat center top; 
+    height: 453px;
+    z-index: 2;
+}
+.sidebar{
+    width: 184px;
+}
+.tc_content{ max-width: 541px; }
+.tc_contet_margin{
+    margin: 0 30px;
+}
+.right_sidebar{
+    width: 180px;
+    padding-top: 20px;
+}
+
+/*BREADCRUMB START*//*BREADCRUMB START*//*BREADCRUMB START*//*BREADCRUMB START*/
+.tc_breadcrumb .selected_breadcrumb,
+.tc_breadcrumb a,
+.tc_page_description{ font-family: Arial,Helvetica,sans-serif;  }
+.tc_breadcrumb .selected_breadcrumb{ color: #e3000b; text-decoration: underline; }
+.tc_breadcrumb a{ color: #565655; text-decoration: none; }
+/*BREADCRUMB   END*//*BREADCRUMB   END*//*BREADCRUMB   END*//*BREADCRUMB   END*/
+
+
+.tc_page_title{
+    color: #e3000b;
+    border-top: 3px solid #e3000b;
+    border-bottom: 3px solid #e3000b;
+    padding: 7px 0;
+}
+.tc_page_description{
+    padding-top: 20px;
+    color: #e3000b;  
+}
+.tc_main_content{
+    padding-top: 20px;
+}
+
+
+
+@media screen and ( max-width : 767px ) {
+    .tc_span { float: none; }
+    .tc_contet_margin{ margin:0; }
+    .right_sidebar{ width:100%; }
+    .tc_page_title{ font-size: 35px; line-height: 40px; }
+    .row1 { margin-left: 0 !important;}
+    .sidebar{ width: 100%; float:none !important;}
+    .tc_breadcrumb{ padding-bottom: 20px; }
+    .tc_breadcrumb .selected_breadcrumb{ font-size: 22px; line-height: 30px }
+    .tc_breadcrumb a{ font-size: 20px; line-height: 30px; }
+    .tc_page_description{ font-size: 25px; line-height: 38px; }
+    .tc_main_content .content_block{ font: normal 23px/32px Arial,Helvetica,sans-serif; }
+    .tc_main_content .content_block h3{ font-size: 27px; line-height: 37px; font-style: normal; color: #e3000b; }
+}
+
+@media screen and ( min-width : 768px ) and (max-width :979px) {
+    .margin50.three_columns_top{ margin: 0 25px !important; }
+    .sidebar{ width: 100%; display: none !important; }
+    .tc_content{ width: 100%; max-width: none; }
+    .tc_contet_margin{ margin: 0;  }
+    .right_sidebar{ width:100%; }
+    
+    .tc_page_title{ font-size: 25px; line-height: 27px; }
+    .tc_breadcrumb{ padding-bottom: 15px; }
+    .tc_page_description{ font-size: 13px; line-height: 22px; }
+    .tc_main_content .content_block{ font: normal 11px/18px Arial,Helvetica,sans-serif; }
+    .tc_main_content .content_block h3{ font-size: 14px; line-height: 20px; font-style: normal; color: #e3000b; }
+    
+    .tc_breadcrumb .selected_breadcrumb{ font-size: 18px; line-height: 24px; }
+    .tc_breadcrumb a,.tc_breadcrumb span{ font-size: 16px; line-height: 24px; }
+    
+    .right_sidebar.tc_span{ width: 100%; padding-top: 40px; }
+    .right_sidebar_block{ width:30%;margin-left: 5%; float: left; }
+    .right_sidebar_block:first-of-type{ width:30%;margin-left: 0%; float: left; }
+}
+
+@media screen and (min-width : 980px) {
+    .tc_content{ width: 545px; }
+    .margin50.three_columns_top{ margin: 0 !important; }
+    
+    .tc_page_title{ font-size: 25px; line-height: 27px; }
+    .tc_page_description{ font-size: 13px; line-height: 22px; }
+    .tc_main_content .content_block{ font: normal 11px/18px Arial,Helvetica,sans-serif; }
+    .tc_main_content .content_block h3{ font-size: 14px; line-height: 20px; font-style: normal; color: #e3000b; }
+    
+    .tc_breadcrumb{ padding-bottom: 8px; }
+    .tc_breadcrumb .selected_breadcrumb{ font-size: 11px; }
+    .tc_breadcrumb a{ font-size: 11px; line-height: 18px; }
+}
