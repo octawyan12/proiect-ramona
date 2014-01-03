@@ -46,7 +46,7 @@
                             <div class="row1">
                                 <nav class="span pr">
                                     <!--TOP MENU MENU-->
-                                    <?php include("/elements/meniu"); ?>
+                                    <?php include("/elements/meniu.php"); ?>
                                 </nav>
                             </div>
 
