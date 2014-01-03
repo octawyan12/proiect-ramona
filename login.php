@@ -5,7 +5,7 @@
 		header( "refresh:0; url=index.php" );// redirectionare la pagina principala
 		exit;
 	}
-	
+
 	if(($_POST['nume'] == "") || ($_POST['parola'] == "")){ // daca vre-unu din capuri e gol
 		?>
 			<script type="text/javascript">
@@ -17,7 +17,11 @@
 	}
 	
 	include ("mySqlConnect.php"); // ne conectam la baza de date sa confruntam campurile
-	$sql = "SELECT * FROM conect WHERE Nume='".$_POST['nume']."' AND Parola='".$_POST['parola']."'";
+//        $insert = "INSERT INTO user (username, password) VALUES ('admin','d033e22ae348aeb5660fc2140aec35850c4da997')";
+//        $exec = mysql_query($insert);
+//        var_dump($exec);
+//        var_dump(mysql_num_rows($exec));
+	$sql = "SELECT * FROM user WHERE username='".$_POST['nume']."' AND password='".sha1($_POST['parola'])."'";
 	$resursa = mysql_query($sql);
 	if (mysql_num_rows($resursa) != 1){ // daca avem 0 sau mai multe conturi care s-au potrivit casutzelor noastre
 		?>
@@ -30,12 +34,6 @@
 	}
 	session_start();
 	$_SESSION['auth']=100;
-	
-	?>
-		<script type="text/javascript">
-			alert('Bine ai revenit Admin!');
-		</script>
-	<?php
 	
 	header( "refresh:0; url=index.php" );// redirectionare la pagina principala
 ?>
