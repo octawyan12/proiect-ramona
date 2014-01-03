@@ -5,11 +5,11 @@
         <meta charset="UTF-8">
         <!-- Site Header Content //-->
         
-        <link rel="stylesheet" media="screen" type="text/css" href="/css/typography.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="/css/main.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="/css/elements.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="css/typography.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="css/elements.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="three_columns.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="/css/products.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="css/products.css" />
         
         <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="/js/verge.min.js"></script>
@@ -30,7 +30,7 @@
 
                     <div class="row1">
                         <div class="logo span2h">
-                            <a href="/" target="_self"><img src="/images/logo.jpg"></a>
+                            <a href="/" target="_self"><img src="images/logo.jpg"></a>
                         </div>
 
                         <div class="span10h">
