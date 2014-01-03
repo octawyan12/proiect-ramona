@@ -1,5 +1,6 @@
 <?php
 
+$image = 0;
 if ($_FILES["file"]["error"] > 0) {
     echo "Error: " . $_FILES["file"]["error"] . "<br>";
 } else {
@@ -19,11 +20,21 @@ if ($_FILES["file"]["error"] > 0) {
     echo "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
     echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br>";
 
-    if (file_exists("../upload/".$_FILES["file"]["name"].'.'.$extension)) {
+    if (file_exists("../upload/" . $_FILES["file"]["name"] . '.' . $extension)) {
         echo $_FILES["file"]["name"] . " already exists. ";
     } else {
-        $targetPath = '../upload/';
-        move_uploaded_file($_FILES["file"]["tmp_name"].'.'.$extension, $targetPath);
+        $targetPath = dirname(__FILE__) . '/../upload/';
+        if (move_uploaded_file($_FILES["file"]["tmp_name"], $targetPath . $_FILES["file"]["name"])) {
+
+            $sql = "INSERT INTO image(name, type, extension, size) VALUES ('" . $_FILES["file"]["name"] . "', '" . $_FILES["file"]["type"] . "', '" . $extension . "', '" . $_FILES["file"]["size"] / 1024 . "')";
+            mysql_query($sql);
+
+            $image = mysql_insert_id();
+            echo "The file " . basename($_FILES['file']['name']) .
+            " has been uploaded";
+        } else {
+            echo "There was an error uploading the file, please try again!";
+        }
     }
 }
 ?> 
