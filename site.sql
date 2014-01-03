@@ -58,11 +58,11 @@ CREATE TABLE `menu_item` (
   `menu` int(11) NOT NULL,
   `require_login` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`,`menu`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 /*Data for the table `menu_item` */
 
-insert  into `menu_item`(`id`,`title`,`path`,`menu`,`require_login`) values (1,'Home','/index.php',1,1),(2,'Contact','/contact.php',1,0),(3,'Add Product','/add-new.php',1,1);
+insert  into `menu_item`(`id`,`title`,`path`,`menu`,`require_login`) values (1,'Home','/index.php',1,0),(2,'Contact','/contact.php',1,0),(3,'Add Product','/add-new.php',1,1),(4,'View Products','/product_item.php',1,0);
 
 /*Table structure for table `product` */
 
