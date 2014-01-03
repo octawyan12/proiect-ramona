@@ -30,7 +30,7 @@
 
                     <div class="row1">
                         <div class="logo span2h">
-                            <a href="/" target="_self"><img src="/images/logo.png"></a>
+                            <a href="/" target="_self"><img src="/images/logo.jpg"></a>
                         </div>
 
                         <div class="span10h">
@@ -45,9 +45,8 @@
 
                             <div class="row1">
                                 <nav class="span pr">
-                                    
                                     <!--TOP MENU MENU-->
-                                    
+                                    <?php include("/elements/meniu"); ?>
                                 </nav>
                             </div>
 

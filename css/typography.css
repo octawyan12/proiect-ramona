@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'gentium_basicregular';
-	src: url('fonts/gentiumBasic/genbasr-webfont.eot');
+	src: url('../fonts/gentiumBasic/genbasr-webfont.eot');
 	src: url('fonts/gentiumBasic/genbasr-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/gentiumBasic/genbasr-webfont.woff') format('woff'),
-		 url('fonts/gentiumBasic/genbasr-webfont.ttf') format('truetype'),
-		 url('fonts/gentiumBasic/genbasr-webfont.svg#gentium_basicregular') format('svg');
+		 url('../fonts/gentiumBasic/genbasr-webfont.woff') format('woff'),
+		 url('../fonts/gentiumBasic/genbasr-webfont.ttf') format('truetype'),
+		 url('../fonts/gentiumBasic/genbasr-webfont.svg#gentium_basicregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 
@@ -12,11 +12,11 @@
 
 @font-face {
 	font-family: 'gentium_basicbold';
-	src: url('fonts/gentiumBasic/genbasb-webfont.eot');
-	src: url('fonts/gentiumBasic/genbasb-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/gentiumBasic/genbasb-webfont.woff') format('woff'),
-		 url('fonts/gentiumBasic/genbasb-webfont.ttf') format('truetype'),
-		 url('fonts/gentiumBasic/genbasb-webfont.svg#gentium_basicbold') format('svg');
+	src: url('../fonts/gentiumBasic/genbasb-webfont.eot');
+	src: url('../fonts/gentiumBasic/genbasb-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gentiumBasic/genbasb-webfont.woff') format('woff'),
+		 url('../fonts/gentiumBasic/genbasb-webfont.ttf') format('truetype'),
+		 url('../fonts/gentiumBasic/genbasb-webfont.svg#gentium_basicbold') format('svg');
 	font-weight: normal;
 	font-style: normal;
 
@@ -24,11 +24,11 @@
 
 @font-face {
 	font-family: 'gentium_basicbold_italic';
-	src: url('fonts/gentiumBasic/genbasbi-webfont.eot');
-	src: url('fonts/gentiumBasic/genbasbi-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/gentiumBasic/genbasbi-webfont.woff') format('woff'),
-		 url('fonts/gentiumBasic/genbasbi-webfont.ttf') format('truetype'),
-		 url('fonts/gentiumBasic/genbasbi-webfont.svg#gentium_basicbold_italic') format('svg');
+	src: url('../fonts/gentiumBasic/genbasbi-webfont.eot');
+	src: url('../fonts/gentiumBasic/genbasbi-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gentiumBasic/genbasbi-webfont.woff') format('woff'),
+		 url('../fonts/gentiumBasic/genbasbi-webfont.ttf') format('truetype'),
+		 url('../fonts/gentiumBasic/genbasbi-webfont.svg#gentium_basicbold_italic') format('svg');
 	font-weight: normal;
 	font-style: normal;
 
@@ -36,11 +36,11 @@
 
 @font-face {
 	font-family: 'gentium_basicitalic';
-	src: url('fonts/gentiumBasic/genbasi-webfont.eot');
-	src: url('fonts/gentiumBasic/genbasi-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/gentiumBasic/genbasi-webfont.woff') format('woff'),
-		 url('fonts/gentiumBasic/genbasi-webfont.ttf') format('truetype'),
-		 url('fonts/gentiumBasic/genbasi-webfont.svg#gentium_basicitalic') format('svg');
+	src: url('../fonts/gentiumBasic/genbasi-webfont.eot');
+	src: url('../fonts/gentiumBasic/genbasi-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gentiumBasic/genbasi-webfont.woff') format('woff'),
+		 url('../fonts/gentiumBasic/genbasi-webfont.ttf') format('truetype'),
+		 url('../fonts/gentiumBasic/genbasi-webfont.svg#gentium_basicitalic') format('svg');
 	font-weight: normal;
 	font-style: normal;
 
@@ -48,11 +48,11 @@
 
 @font-face {
 	font-family: 'puritanbold';
-	src: url('fonts/puritan/puritan-bold-webfont.eot');
-	src: url('fonts/puritan/puritan-bold-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/puritan/puritan-bold-webfont.woff') format('woff'),
-		 url('fonts/puritan/puritan-bold-webfont.ttf') format('truetype'),
-		 url('fonts/puritan/puritan-bold-webfont.svg#puritanbold') format('svg');
+	src: url('../fonts/puritan/puritan-bold-webfont.eot');
+	src: url('../fonts/puritan/puritan-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/puritan/puritan-bold-webfont.woff') format('woff'),
+		 url('../fonts/puritan/puritan-bold-webfont.ttf') format('truetype'),
+		 url('../fonts/puritan/puritan-bold-webfont.svg#puritanbold') format('svg');
 	font-weight: normal;
 	font-style: normal;
 
