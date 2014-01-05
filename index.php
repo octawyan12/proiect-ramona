@@ -1,10 +1,11 @@
-<?php
-	include ("/elements/header_elem.php");
-?>
+<?php include ("/elements/header_elem.php"); ?>
 
-<td valign="top" width="100%">
-</td>
+text<br>
+text<br>
+text<br>
+text<br>
+text<br>
+text<br>
+text<br>
 
-<?php
-	include ("/elements/footer.php");
-?>
+<?php include ("/elements/footer_elem.php"); ?>

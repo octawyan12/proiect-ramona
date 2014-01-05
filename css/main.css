@@ -129,7 +129,7 @@ body
 .top_bg .bg_center,
 .top_bg .bg_center
 {
-	background: url("images/teasers_bg_top.png") no-repeat center top;
+	background: url("../images/teasers_bg_top.png") no-repeat center top;
 	margin: 0 31px 0 30px;  
 }
 .top_bg .bg_left,
@@ -139,7 +139,7 @@ body
 	width: 35px;
 	top:0;
 	left:-5px;
-	background: url("images/teasers_bg_top.png") no-repeat left top; 
+	background: url("../images/teasers_bg_top.png") no-repeat left top; 
 }
 .top_bg .bg_right,
 .top_bg .bg_right
@@ -148,11 +148,11 @@ body
 	width: 35px;
 	top:0;
 	right:-4px;
-	background: url("images/teasers_bg_top.png") no-repeat right top;
+	background: url("../images/teasers_bg_top.png") no-repeat right top;
 }
 .bottom_bg .bg_center
 {
-	background: url("images/teasers_bg_bottom.png") no-repeat center bottom;
+	background: url("../images/teasers_bg_bottom.png") no-repeat center bottom;
 	margin: 0 30px; 
 }
 .bottom_bg .bg_left
@@ -161,7 +161,7 @@ body
 	width: 35px;
 	top:0;
 	left:-5px;
-	background: url("images/teasers_bg_bottom.png") no-repeat left bottom;
+	background: url("../images/teasers_bg_bottom.png") no-repeat left bottom;
 }
 .bottom_bg .bg_right
 { 
@@ -169,7 +169,7 @@ body
 	width: 35px;
 	top:0;
 	right:-5px;
-	background: url("images/teasers_bg_bottom.png") no-repeat right bottom;
+	background: url("../images/teasers_bg_bottom.png") no-repeat right bottom;
 }
 .repeat_bg_left,.repeat_bg_right
 {
@@ -177,7 +177,7 @@ body
 	top:0;
 	height: 100%;
 	width: 31px;
-	background: url("images/teasers_bg_center.png") repeat-y;    
+	background: url("../images/teasers_bg_center.png") repeat-y;    
 }
 .repeat_bg_left
 {

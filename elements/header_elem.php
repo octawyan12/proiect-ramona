@@ -8,7 +8,7 @@
         <link rel="stylesheet" media="screen" type="text/css" href="css/typography.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="css/main.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="css/elements.css" />
-        <link rel="stylesheet" media="screen" type="text/css" href="three_columns.css" />
+        <link rel="stylesheet" media="screen" type="text/css" href="css/three_columns.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="css/products.css" />
         
         <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
