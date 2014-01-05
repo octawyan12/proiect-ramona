@@ -45,9 +45,15 @@ include ("elements/header_elem.php");
                             </div>
 
                             <div class="tc_main_content">
-                                <form action="" method="post">
-                                    
-                                    
+                                <form action="/tools/send_message.php" method="post">
+                                    <label for="subject">Subject</label><br>
+                                    <input type='text' name='subject' id='subject'/></br>
+                                    <label for="email">Email</label><br>
+                                    <input type='email' name='email' id='email'/></br>
+                                    <label for="message">Message</label><br>
+                                    <textarea name="message"></textarea><br>
+                                    <button>Send</button>
+
                                 </form>
                             </div>
                         </div>
