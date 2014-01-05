@@ -57,21 +57,22 @@
         <?php
     } else { // daca e cont normal
         ?>	
-        <li class='has-submenu'><a href='#'>Conectare<span>&nbsp;</span></a>
-            <ul> 
+        <li class='has-submenu'>
+            <a id="login_btn" href='#'>Conectare<span>&nbsp;</span></a>
+            <ul id="login_form"> 
                 <li>
                     <form action="login.php" method="post">
                         <table> 
                             <tr>
-                                <td align="right" > <font color = #669900> Nume: </font> </td>
+                                <td align="right" > <font color = #e3000b> Nume: </font> </td>
                                 <td> <input type="text" id="username" name="nume"> </td> 
                             </tr>
                             <tr> 
-                                <td align="right" > <font color = #669900> Parola: </font> </td>
+                                <td align="right" > <font color = #e3000b> Parola: </font> </td>
                                 <td> <input type="password" id="password"  name="parola"> </td>
                             </tr> 
                         </table>
-                        <input type="submit" value="Autentificare">
+                        <input class="red_border_btn loginbtn rcolor" type="submit" value="Autentificare">
                     </form>
                 </li>
             </ul>

@@ -10,15 +10,33 @@
 .goudas_footer .small_logo img{ width: 50% }
 
 .logo{ height: 98px; }
-.call_btn{ position: absolute; top:0; right:0px; }
+
 #nav_btn{ display: none; }
+
 ul.header_menu{  margin: 0; display: block; }
-ul.header_menu ul{ display: none; }
-ul.header_menu li{ float: left; margin-right: 25px; }
+
+ul.header_menu li{ float: left; margin-right: 25px; position: relative;}
 ul.header_menu li:last-child{ margin-right: 0; }
 ul.header_menu li span{ display: none; }
 ul.header_menu li>a{ font-size: 18px; line-height:27px; color: #e3000b; }
 ul.header_menu li>a.active,ul.header_menu li>a:hover{ border-bottom: 3px solid #e3000b; }
+
+#login_form{ 
+    display: none; 
+    position: absolute; 
+    left: -20px; 
+    top: 30px; 
+    padding: 20px; 
+    background: #fff;
+    border-style: solid;
+    border-color: #e3000b;
+    border-width: 0px 1px 1px;
+}
+#login_form td{padding: 0 0 10px;}
+.loginbtn{
+    font-size: 14px;
+    line-height: 28px;
+}
 
 /*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER****/
 /*FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER***FOOTER****/
