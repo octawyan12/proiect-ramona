@@ -5,13 +5,16 @@
         <!-- Site Header Content //-->
         
         <link rel="stylesheet" media="screen" type="text/css" href="css/typography.css" />
+        <link rel="stylesheet" href="css/fancybox/fancybox/jquery.fancybox.css">
         <link rel="stylesheet" media="screen" type="text/css" href="css/main.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="css/elements.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="css/three_columns.css" />
         <link rel="stylesheet" media="screen" type="text/css" href="css/products.css" />
         
-        <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="/js/fancybox-download/js/fancybox/jquery.fancybox.js"></script>
         <script type="text/javascript" src="/js/tinymce/js/tinymce/tinymce.min.js"></script>
+        
         <script src="/js/general.js"></script>
     </head>
     <body>
