@@ -42,7 +42,7 @@
 .sidebar{
     width: 184px;
 }
-.tc_content{ max-width: 541px; }
+.tc_content{ max-width: 541px; min-height: 450px !important; }
 .tc_contet_margin{
     margin: 0 30px;
 }

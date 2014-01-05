@@ -42,7 +42,7 @@
                             </div>
 
                             <div class="tc_main_content">
-
+                                <div class='add_new_prod_btn'><a href='/add-new.php'>Add new product</a></div>
                                 <?php
                                 include("tools/get_products.php");
                                 if (count($products) > 1):

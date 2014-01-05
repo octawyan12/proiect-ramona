@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=1">  
+    <head>=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=1">  
         <meta charset="UTF-8">
         <!-- Site Header Content //-->
         
@@ -12,10 +11,6 @@
         <link rel="stylesheet" media="screen" type="text/css" href="css/products.css" />
         
         <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="/js/verge.min.js"></script>
-        <script type="text/javascript">
-            jQuery.extend(verge);
-        </script>
         <script src="/js/general.js"></script>
         <script>
             updateViewport() ;

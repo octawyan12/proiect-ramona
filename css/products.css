@@ -63,7 +63,20 @@
 .productsList .list_item .img_container>img{ width: 100%; height: auto }
 .productsList .list_item  a{ margin: 10px 0 0 0; line-height: 28px; }
 
-
+.add_new_prod_btn{  border-radius: 20px; margin-bottom: 20px; overflow: hidden;}
+.add_new_prod_btn a{
+    display: block; 
+    background: #eee; 
+    padding: 15px 4%;
+    color: #565655; 
+    font-size: 20px; 
+    letter-spacing: 1px; 
+    font-weight: bold;
+}
+.add_new_prod_btn a:hover{
+    color: #e3000b;
+    background: #ddd;
+}
 .edit_product,.delete_product{ 
     color: #fff; 
     padding: 0 20px; 
@@ -81,7 +94,7 @@ ul.products_table li{}
 .li1{ background: #eee; }
 .li2{  }
 .li_head div{ font-weight: bold; }
-.p_name,.p_desc,.p_price,.p_actions{ float: left; padding-right: 4%}
+.p_name,.p_desc,.p_price,.p_actions{ float: left; padding-right: 4%; min-height: 1px}
 .p_name{width: 20%;padding-left: 4%}
 .p_desc{width: 25%;}
 .p_price{ width: 15%; }
