@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=1">  
+    <head>  
         <meta charset="UTF-8">
         <!-- Site Header Content //-->
         
@@ -12,9 +12,6 @@
         
         <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
         <script src="/js/general.js"></script>
-        <script>
-            updateViewport() ;
-        </script>
     </head>
     <body>
         <header class="goudas_header">
