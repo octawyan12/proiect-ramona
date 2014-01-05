@@ -1,5 +1,6 @@
-<?php include('elements/header_elem.php'); 
-include('tools/get_products.php');
+<?php 
+    include('elements/header_elem.php'); 
+    include('tools/get_products.php');
 ?>
 
 <section class="pr">
