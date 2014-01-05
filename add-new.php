@@ -37,7 +37,11 @@ include('tools/get_products.php');
                                 if (isset($_GET['id'])) :
                                     echo htmlentities($product['name']);
                                 else :
-                                    echo htmlentities($_SERVER['REQUEST_URI']);
+                                    include('/tools/get_page_name.php');
+                                    $page = getCurrentPage();
+                                    if ($page !== false) {
+                                        echo $page['title'];
+                                    }
                                 endif;
                                 ?>
                             </div>

@@ -32,7 +32,13 @@
                         <div class="tc_contet_margin">
 
                             <div class="tc_page_title">
-                                <?= "Administrare produse" ?>
+                                <?php 
+                                include('/tools/get_page_name.php');
+                                $page = getCurrentPage();
+                                if ($page !== false) {
+                                    echo $page['title'];
+                                }
+                                ?>
                             </div>
 
                             <div class="tc_main_content">
@@ -53,7 +59,7 @@
                                         </li>
                                         <?php
                                         foreach ($products as $key => $prod) :
-                                            if(isset($prod['id']) && $prod['id']) {
+                                            if (isset($prod['id']) && $prod['id']) {
                                                 ?>
 
                                                 <li class='li_body<?= ($key % 2 == 0) ? " li1" : " li2" ?> clearfix'>
@@ -70,7 +76,7 @@
                                         endforeach;
                                         ?>
                                     </ul>
-<?php endif; ?>
+                                <?php endif; ?>
 
                             </div>
 
