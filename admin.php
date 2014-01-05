@@ -33,10 +33,8 @@
 
                             <div class="tc_page_title">
                                 <?php 
-                                include('/tools/get_page_name.php');
-                                $page = getCurrentPage();
-                                if ($page !== false) {
-                                    echo $page['title'];
+                                if ($currentPage !== false) {
+                                    echo $currentPage['title'];
                                 }
                                 ?>
                             </div>

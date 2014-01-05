@@ -37,10 +37,8 @@ include('tools/get_products.php');
                                 if (isset($_GET['id'])) :
                                     echo htmlentities($product['name']);
                                 else :
-                                    include('/tools/get_page_name.php');
-                                    $page = getCurrentPage();
-                                    if ($page !== false) {
-                                        echo $page['title'];
+                                    if ($currentPage !== false) {
+                                        echo $currentPage['title'];
                                     }
                                 endif;
                                 ?>
@@ -53,7 +51,7 @@ include('tools/get_products.php');
                                     <input type='text' name='name' id='name'/></br>
 
                                     <label for="description">Description</label><br>
-                                    <textarea name='description' id='description'></textarea></br>
+                                    <textarea class="tinymce-textarea" name='description' id='description'></textarea></br>
 
                                     <label for="price">Price</label><br>
                                     <input type='text' name='price' id='price'/></br>

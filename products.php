@@ -39,10 +39,8 @@
                                     if (isset($_GET['id'])) :
                                         echo htmlentities($product['name']);
                                     else :
-                                        include('/tools/get_page_name.php');
-                                        $page = getCurrentPage();
-                                        if($page !== false) {
-                                            echo $page['title'];
+                                        if($currentPage !== false) {
+                                            echo $currentPage['title'];
                                         }
                                     endif;
                                 ?>
