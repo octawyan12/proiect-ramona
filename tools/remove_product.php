@@ -1,5 +1,13 @@
 <?php
-if($_GET['id']) {
-    var_dump($id);die;
+include ("../mySqlConnect.php");
+
+$sql = "DELETE FROM product WHERE id={$_POST['product_id']}";
+
+if(mysql_query($sql)) {
+    print true;
+} else {
+    print false;
 }
+
+
 ?>

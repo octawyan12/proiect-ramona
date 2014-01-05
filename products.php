@@ -39,6 +39,7 @@
                                     if (isset($_GET['id'])) :
                                         echo htmlentities($product['name']);
                                     else :
+                                        include('/tools/get_page_name.php');
                                         echo htmlentities( $_SERVER['REQUEST_URI']);
                                     endif;
                                 ?>
