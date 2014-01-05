@@ -1,5 +1,4 @@
 <?php
-    session_start();
     if (isset($_SESSION['auth'])) { // daca exista in SESSION variabila asta...
         if ($_SESSION['auth'] == 100) { // daca are valoare de admin
             $auth = 100;

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>  
+    <head>
         <meta charset="UTF-8">
         <!-- Site Header Content //-->
         
@@ -11,9 +11,11 @@
         <link rel="stylesheet" media="screen" type="text/css" href="css/products.css" />
         
         <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/js/tinymce/js/tinymce/tinymce.min.js"></script>
         <script src="/js/general.js"></script>
     </head>
     <body>
+        <?php include('/tools/check_login.php'); ?>
         <header class="goudas_header">
             <section class="top_navigation">
                 <div class="container">

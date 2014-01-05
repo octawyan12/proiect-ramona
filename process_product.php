@@ -11,13 +11,17 @@ if($_POST) {
     if (!isset($image) || $image == 0) {
         $image = $product['image_id'];
     }
+    if($_POST['remove'] == 'on') {
+        $image = 0;
+    }
      $prod = "UPDATE product SET name='".$_POST['name']."', description='".$_POST['description']."', price='".$_POST['price']."', image='".$image."' WHERE id=".$_POST['id'];
+     mysql_query($prod);
+     header('Location: products.php?id='.$_POST['id']);
     } else {
         $prod = "INSERT INTO product(name, description, price, image) VALUES ('".$_POST['name']."', '".$_POST['description']."', '".$_POST['price']."', '".$image."')";
+        mysql_query($prod);
+        header('Location: admin.php');
     }
-    mysql_query($prod);
-    
-    header('Location: index.php');
 }
 
 ?>
